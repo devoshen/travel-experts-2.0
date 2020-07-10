@@ -1,0 +1,185 @@
+/* CSS is for Presentation */
+
+/* Header Section */
+.frog {
+  width: 40px;
+  padding-right: 2px;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header{
+  padding-left:10px;
+
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+    
+  background-color:mediumseagreen;
+  margin: 0;
+ }
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+
+header h1 a {
+  text-decoration: none;
+  color:white;
+  margin: 0;
+}
+
+/* Navbar */
+nav ul {
+  display: flex;
+  margin: 0;
+  justify-content: flex-end;
+  background-color: mediumseagreen;
+}
+
+nav li {
+  flex: none;
+  font-size: 0.9rem;
+}
+
+nav a{
+  padding: 0.5em 1em; 
+  background-image: linear-gradient(grey, black);
+    
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-image: linear-gradient(black, grey);
+}
+  
+nav a:active {
+  background-image: linear-gradient(cornflowerblue, cadetblue);
+}
+
+.current-page {
+  background-image: linear-gradient(Azure, black);
+}
+
+/* HERO Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+  background-color: cadetblue;
+  background-image: url('https://picsum.photos/id/1040/500/500');
+  background-size: cover;
+  background-position: center;
+    
+  /* height: 80vh; */
+  min-height:80vh;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: darkgreen;
+  margin: 0;
+  padding: 0 2em;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0 2em;
+}
+
+
+/* Main Section */
+main {
+  background-color: azure;
+  text-align: justify;
+  margin: 0;
+  padding: 3em;
+}
+
+main h2 {
+  text-align: center; 
+  margin: 0;
+}
+
+main ul {
+  list-style-type: none;
+  padding-left: 0;
+
+  max-width: 60ch;
+  
+  padding: 0 1em;
+  margin: 1em auto;
+}
+
+main p {
+  /* line length(web): aim for 75 or less */ 
+  max-width: 60ch;
+
+  padding: 0 1em;
+  margin: 1em auto;
+}
+
+main form {
+  background-image: linear-gradient(cornflowerblue, cadetblue);
+
+  width: 50%;
+  min-width: 280px;
+  max-width: 550px;
+    
+  padding: 1em;
+  border: 2px solid grey;
+  border-radius: 1em;
+  
+  margin: 0 auto;
+}
+
+main form div {
+  margin-top: 0.5em;
+}
+
+main form label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
+main form input, main form textarea {
+  /* Unify text field font setting */
+  font: 1em sans-serif;
+  /* Uniform text field size */
+  width: 100%;
+  box-sizing: border-box;
+
+  border: 1px solid grey;
+}
+
+main form button {
+  font-size: 1rem;
+  margin-left: 50%;
+  margin-top: 0.5em;
+  background-color: azure;
+}
+
+
+
+/* Footer Section */
+footer {
+  color:white;
+  background-color: mediumseagreen;
+  margin: 0;
+}
+
+footer p {
+  margin: 0;
+}

@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.register {
+    background-image: url('https://picsum.photos/id/124/500/500');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: auto;
+}
+
+/* Form properties modified from MDN "Styling web forms" & "Your first forms" */
+
+.register-form {
+    background-image: linear-gradient(cornflowerblue, cadetblue);
+    
+    width: 50%;
+    min-width: 280px;
+    max-width: 450px;
+    
+    padding: 0.5em;
+    border: 2px solid grey;
+    border-radius: 1em;
+}
+
+.register-form label {
+    /* Uniform size & alignment */
+    width: 80%;
+    text-align: left;
+}
+
+.register-form input {
+    /* Unify text field font setting */
+    font: 1em sans-serif;
+    /* Uniform text field size */
+    width: 80%;
+
+    border: 1px solid grey;
+}
+
+.checkbox label {
+    width: 50%;
+    margin-right: 10%; 
+    text-align: left;
+}
+
+.checkbox input {
+    width: 5%;
+    margin-right: 15%;
+    
+}
+
+main form li button {
+    font-size: 18px;
+    margin-top: 0.5em;
+}
+

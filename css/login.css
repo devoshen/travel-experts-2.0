@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.login {
+    background-image: url('https://picsum.photos/id/1051/500/500');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+/* Form properties modified from MDN "Styling web forms" & "Your first forms" */
+
+.login-form {
+    background-image: linear-gradient(cornflowerblue, cadetblue);
+        
+    width: 50%;
+    min-width: 280px;
+    max-width: 450px;
+    
+    padding: 0.5em;
+    border: 2px solid grey;
+    border-radius: 1em;
+}
+
+.login-form label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+}
+
+.login-form input {
+    /* Unify text field font setting */
+    font: 1em sans-serif;
+    /* Uniform text field size */
+    width: 70%;
+    box-sizing: border-box;
+
+    border: 1px solid grey;
+}
+
+main form li button {
+    font-size: 1rem;
+    margin-top: 0.5em;
+}
