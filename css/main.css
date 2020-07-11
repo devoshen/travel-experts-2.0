@@ -15,12 +15,11 @@
 header{
   padding-left:10px;
 
-  /* display: flex;
+  display: flex;
   justify-content: space-between;
-  align-items: center; */
+  align-items: flex-start;
     
   background-color:mediumseagreen;
-  margin: 0;
  }
 
 header h1 {
@@ -33,39 +32,6 @@ header h1 a {
   text-decoration: none;
   color:white;
   margin: 0;
-}
-
-/* Navbar */
-nav ul {
-  display: flex;
-  margin: 0;
-  justify-content: flex-end;
-  background-color: mediumseagreen;
-}
-
-nav li {
-  flex: none;
-  font-size: 0.9rem;
-}
-
-nav a{
-  padding: 0.5em 1em; 
-  background-image: linear-gradient(grey, black);
-    
-  color: white;
-  text-decoration: none;
-}
-
-nav a:hover {
-  background-image: linear-gradient(black, grey);
-}
-  
-nav a:active {
-  background-image: linear-gradient(cornflowerblue, cadetblue);
-}
-
-.current-page {
-  background-image: linear-gradient(Azure, black);
 }
 
 /* HERO Section */
