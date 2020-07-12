@@ -33,6 +33,7 @@
 ### SVG logo from Font Awesome. https://fontawesome.com/license/free
 ### SVG menu toggle from Font Awesome.
 ### Pictures from lorem picsum photos. https://picsum.photos/
+### Gallery pictures from Unsplash. https://unsplash.com/license
 ### Forms stying from MDN resources. https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form
 
 
