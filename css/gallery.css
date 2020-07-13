@@ -1,0 +1,34 @@
+/* this CSS style the gallery.html page linked from the Destinations section of the index.html page */
+
+.gallery {
+    background-color: lightcyan;
+  
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+  
+    margin: auto;
+}
+  
+/* this div includes image and paragraph */
+.gallery div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.gallery img {
+    max-height: 450px;
+    margin: 0.5em;
+}
+
+/* both a and p set to work (used to associate description to image)*/
+.gallery a {
+    padding-bottom: 1em;
+}
+  
+.gallery p {
+    padding-bottom: 1em;
+}

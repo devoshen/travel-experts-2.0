@@ -1,7 +1,6 @@
-/* CSS is for Presentation */
-
+/******************/
 /* Header Section */
-
+/******************/
 .frog {
   width: 40px;
   padding-right: 2px;
@@ -39,7 +38,9 @@ header h1 a {
   margin: 0;
 }
 
+/*********************************/
 /* HERO Section - Attention Grab */
+/*********************************/
 .hero {
   /* to fix h2 and p in this section to the upper-right of this section */
   display: flex;
@@ -72,19 +73,39 @@ header h1 a {
   padding: 0em 2em;
 }
 
+/************************/
 /* Destinations Section */
+/************************/
 .destinations {
   background-color: lightcyan;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: auto;
 }
 
 .destinations h2 {
-  text-align: center; 
   margin: 0;
 }
 
+.jsDest img {
+  width: 1000px;
+  /* min-width: 400px;
+  max-width: 800px; */
+  margin: 0.5em;
+}
 
+.jsDest div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+/**********************/
 /* Contact-Us Section */
+/**********************/
 /* consider testing and using flex-box for this section */
 .contact-us {
   background-color: azure;
@@ -161,8 +182,9 @@ header h1 a {
   background-color: azure;
 }
 
-
+/******************/
 /* Footer Section */
+/******************/
 /* consider testing and using flex-box for this section */
 footer {
   color:white;
