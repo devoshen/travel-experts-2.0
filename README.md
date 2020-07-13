@@ -36,7 +36,7 @@ Future Improvements:
 
 
 ## Additional Notes:
-- device tested: dektop, iphone (gallery overflows screen, need css edits)
+- device tested: dektop, iphone (gallery overflows screen, need to adjust css img on narrow screen)
 - browser tested: FireFox, Chrome
 - pushed to GitHub
 - submitted hours after Jul 12th 8pm deadline
