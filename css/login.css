@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    /* to push footer to bottom of screen to create a 'sticky footer' */
     min-height: 100vh;
 }
 
@@ -11,6 +12,8 @@ body {
 
     display: flex;
     flex-direction: column;
+    align-items: center;
+    /* to 'stretch' background to the full screen */
     flex: auto;
 }
 
@@ -18,7 +21,8 @@ body {
 
 .login-form {
     background-image: linear-gradient(cornflowerblue, cadetblue);
-        
+    
+    /* specify width in relation to screen and set min and max for extreme sized screens */
     width: 50%;
     min-width: 280px;
     max-width: 450px;
@@ -31,6 +35,7 @@ body {
 .login-form label {
     /* Uniform size & alignment */
     display: inline-block;
+    /* consider playing with this width */
     width: 70%;
     text-align: left;
 }
@@ -39,6 +44,7 @@ body {
     /* Unify text field font setting */
     font: 1em sans-serif;
     /* Uniform text field size */
+    /* consider playing with this width */
     width: 70%;
     box-sizing: border-box;
 

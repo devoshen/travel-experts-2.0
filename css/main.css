@@ -1,17 +1,22 @@
 /* CSS is for Presentation */
 
 /* Header Section */
+
 .frog {
   width: 40px;
   padding-right: 2px;
 }
 
+/* Grouping frog logo and 'Travel Experts' together to create logo */
+/* padding added from assignment 1 comment */
 .logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding: 0.5em 0.5em;
 }
 
+/* header mainly contains logo and navbar */
 header{
   padding-left:10px;
 
@@ -34,8 +39,9 @@ header h1 a {
   margin: 0;
 }
 
-/* HERO Section */
+/* HERO Section - Attention Grab */
 .hero {
+  /* to fix h2 and p in this section to the upper-right of this section */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -48,36 +54,52 @@ header h1 a {
     
   /* height: 80vh; */
   min-height:80vh;
+  /* Can't really tell the difference using height vs min-height */
 }
 
 .hero h2 {
-  font-size: 2rem;
+  /* created more space between lines for readability, need to device check on phone */
+  font-size: 2.5rem;
   color: darkgreen;
   margin: 0;
-  padding: 0 2em;
+  padding: 1em 2em;
 }
 
 .hero p {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  color: darkslategrey;
   margin: 0;
-  padding: 0 2em;
+  padding: 0em 2em;
+}
+
+/* Destinations Section */
+.destinations {
+  background-color: lightcyan;
+}
+
+.destinations h2 {
+  text-align: center; 
+  margin: 0;
 }
 
 
-/* Main Section */
-main {
+
+/* Contact-Us Section */
+/* consider testing and using flex-box for this section */
+.contact-us {
   background-color: azure;
+  /* text stretches to max-width defined in 'p' */
   text-align: justify;
   margin: 0;
   padding: 3em;
 }
 
-main h2 {
+.contact-us h2 {
   text-align: center; 
   margin: 0;
 }
 
-main ul {
+.contact-us ul {
   list-style-type: none;
   padding-left: 0;
 
@@ -87,7 +109,7 @@ main ul {
   margin: 1em auto;
 }
 
-main p {
+.contact-us p {
   /* line length(web): aim for 75 or less */ 
   max-width: 60ch;
 
@@ -95,7 +117,7 @@ main p {
   margin: 1em auto;
 }
 
-main form {
+.contact-us form {
   background-image: linear-gradient(cornflowerblue, cadetblue);
 
   width: 50%;
@@ -109,28 +131,30 @@ main form {
   margin: 0 auto;
 }
 
-main form div {
+.contact-us form div {
   margin-top: 0.5em;
 }
 
-main form label {
+.contact-us form label {
   /* Uniform size & alignment */
+  /* consider playing with this width */
   display: inline-block;
   width: 100%;
   text-align: left;
 }
 
-main form input, main form textarea {
+.contact-us form input, main form textarea {
   /* Unify text field font setting */
   font: 1em sans-serif;
   /* Uniform text field size */
+  /* consider playing with this width */
   width: 100%;
   box-sizing: border-box;
 
   border: 1px solid grey;
 }
 
-main form button {
+.contact-us form button {
   font-size: 1rem;
   margin-left: 50%;
   margin-top: 0.5em;
@@ -138,8 +162,8 @@ main form button {
 }
 
 
-
 /* Footer Section */
+/* consider testing and using flex-box for this section */
 footer {
   color:white;
   background-color: mediumseagreen;

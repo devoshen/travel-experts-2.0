@@ -5,7 +5,7 @@ const imgInfo =
         id:           0,
         srcURL:       'imgFolder',
         altText:      'Moraine Lake, Canada',
-        description:  'Explore mountains and lakes of the Canadian Rockies',
+        description:  'Explore nature in the Canadian Rockies',
         linkURL:      'https://www.banffjaspercollection.com/canadian-rockies/',
         fileName:     '0-Moraine_Lake.jpg',
         attribution:  {
@@ -69,7 +69,7 @@ const imgInfo =
     {
         id:           5,
         srcURL:       'imgFolder',
-        altText:      'European dishes',
+        altText:      'European Cuisine',
         description:  'Experience culture with your taste buds',
         linkURL:      'https://www.loveexploring.com/gallerylist/69944/the-50-best-food-cities',
         fileName:     '5-.jpg',
