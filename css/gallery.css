@@ -22,13 +22,15 @@
 .gallery img {
     max-height: 450px;
     margin: 0.5em;
+
+    max-width: 95%;
 }
 
-/* both a and p set to work (used to associate description to image)*/
-.gallery a {
+/* both a and p set to work (better associate description to implied image)*/
+/* .gallery a {
     padding-bottom: 1em;
 }
   
 .gallery p {
     padding-bottom: 1em;
-}
+} */
