@@ -1,3 +1,4 @@
+// Array of objects modified from in-class sample code
 
 const imgInfoArray =
 [

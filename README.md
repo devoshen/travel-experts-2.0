@@ -11,21 +11,18 @@
 - re-structured the header that now includes the logo and navbar
 - inserted hamburger menu icon from FontAwesome
 - implmented element.classList and addEventListener.toggle 
+- dropdown hamburger menu not to interfere with HERO section
 
 Future Improvements:
-- dropdown hamburger menu to have transparent background (does not interfere with HERO section)
 - perhaps more style changes to the navbar when toggled
 
 #### Gallery
 - created array of objects(photo info) including photo attributes
 - created gallery of pictures with alt-text and themed travel description linked to external websites (opens in new tab) using JS loops combined with document.querrySelector and innerHTML functions
-- Took forever, but finally was able to display the pictures with a time delay.
+- finally was able to loop display all pictures with a time delay (thanks to a friend that helped with setTimeout in a recursive loop)
 
 Future Improvements:
-- loop the array back to first item after finishing the last picture
 - smoother transition between images
-
-
 
 #### Form Validation
 - did not attempt because I ran out of time
@@ -39,7 +36,8 @@ Future Improvements:
 - device tested: dektop, iphone (gallery overflows screen, need to adjust css img on narrow screen)
 - browser tested: FireFox, Chrome
 - pushed to GitHub
-- submitted hours after Jul 12th 8pm deadline
+- gallery external URL opens a new tab but if clicked on another link the first tab with link instead of creating another new tab
+- submitted within a week after the Jul 12th 8pm deadline
 
 
 ## Attributes: 
@@ -51,7 +49,9 @@ Future Improvements:
 - forms stying from MDN resources. https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form
 - manipulated sample code provided in-class
 
-- This is the site that eventually got me to use setTimeout within a loop. https://www.geeksforgeeks.org/how-to-add-a-delay-in-a-javascript-loop/
+These sources have helped me to implement a setTimeout in a loop:
+- personal friend in the field Mr. D.Lin
+- https://stackoverflow.com/questions/22154129/javascript-settimeout-loops
 
 
 
