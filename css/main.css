@@ -145,7 +145,7 @@ header h1 a {
   min-width: 280px;
   max-width: 550px;
     
-  padding: 1em;
+  padding: 0.5em;
   border: 2px solid grey;
   border-radius: 1em;
   
@@ -164,15 +164,16 @@ header h1 a {
   text-align: left;
 }
 
-.contact-us form input, main form textarea {
+.contact-us form input, .contact-us form textarea {
   /* Unify text field font setting */
   font: 1em sans-serif;
+
   /* Uniform text field size */
-  /* consider playing with this width */
   width: 100%;
   box-sizing: border-box;
 
-  border: 1px solid grey;
+  /* Match form field borders */
+  border: 2px solid grey;
 }
 
 .contact-us form button {
@@ -180,6 +181,15 @@ header h1 a {
   margin-left: 50%;
   margin-top: 0.5em;
   background-color: azure;
+}
+
+/* form validation styles */
+input:invalid {
+  border: 2px dashed pink;
+}
+  
+input:valid {
+  border: 2px solid black;
 }
 
 /******************/

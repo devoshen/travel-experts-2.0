@@ -25,11 +25,14 @@ Future Improvements:
 - smoother transition between images
 
 #### Form Validation
-- did not attempt because I ran out of time
-- this should be an easy research on built-in HTML5 form validation
-
+- made all fields required (didn't implement red asterisk)
+- ensured email fields had the "email" input type
+- password field enforced a minimum length of 8 characters and hid typed characters. 
+- added custom CSS style for "invalid" fields (red outline)
 
 Future Improvements:
+- add display notice that password length requires 8 - 14 characters
+- only HTML5 form validation used, consider implementing JS validations
 
 
 ## Additional Notes:

@@ -74,15 +74,15 @@
 				<legend>Send Us a Message</legend>
 				<div>
 					<label>Full Name</label>
-					<input type="text" name="fullName">
+					<input type="text" name="fullName" required>
 				</div>
 				<div>
 					<label>Email</label>
-					<input type="email" name="email" placeholder="first.last@edu.sait.ca">
+					<input type="email" name="email" placeholder="first.last@edu.sait.ca" required>
 				</div>
 				<div>
 					<label>Message</label>
-					<textarea name="message"></textarea>
+					<textarea name="message" maxlength="140" rows="5" required></textarea>
 				</div>
 				<button type="submit"><strong>Submit</strong></button>
 			</fieldset>
